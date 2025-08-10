@@ -220,7 +220,7 @@ export function CallToAction() {
         {/* Bottom Guarantee */}
         <div className="text-center mt-16 p-8 bg-gradient-to-r from-accent/10 to-accent/5 rounded-2xl border border-accent/30 backdrop-blur-sm">
           <Shield className="w-16 h-16 text-accent mx-auto mb-4" />
-          <h3 className="text-2xl font-bold text-foreground mb-4">Garantie 100% Sans Risque</h3>
+          <h3 className="text-2xl font-bold text-foreground mb-4">Garantie Satisfait ou Remboursé</h3>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Essayez notre programme de trading complet pendant 30 jours. Si vous n'êtes pas complètement satisfait 
             ou ne voyez pas de résultats, nous vous remboursons intégralement. Aucune question posée.
