@@ -6,9 +6,9 @@ import { ThemeProvider } from '@/components/theme-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'OnlyPropFirms - The Only Trading Course You Need',
-  description: 'Learn to day trade with the most comprehensive trading course. Join 10,000+ successful traders and start your journey today.',
-  keywords: 'trading course, day trading, prop firms, futures trading, trading education',
+  title: 'DLT - Débuter Le Trading - Formation Trading Complète',
+  description: 'Apprenez le trading avec la formation la plus complète. Rejoignez 10 000+ traders performants et commencez votre parcours aujourd\'hui.',
+  keywords: 'formation trading, day trading, prop firms, trading futures, éducation trading, débuter trading',
     generator: 'v0.dev'
 }
 
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider defaultTheme="dark" storageKey="onlypropfirms-theme">
+        <ThemeProvider defaultTheme="light" storageKey="dlt-theme">
           {children}
         </ThemeProvider>
       </body>
